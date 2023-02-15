@@ -1,14 +1,237 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "status": "OK",
+    "code": 200,
+    "total": 10,
+    "data": [
+        {
+            "id": 1,
+            "firstname": "Gene",
+            "lastname": "Tromp",
+            "email": "darian53@hotmail.com",
+            "phone": "+3893555992128",
+            "birthday": "1936-02-19",
+            "gender": "male",
+            "address": {
+                "id": 0,
+                "street": "519 Estell Lodge",
+                "streetName": "Carli Keys",
+                "buildingNumber": "68514",
+                "city": "Kenyaside",
+                "zipcode": "77281",
+                "country": "Kazakhstan",
+                "county_code": "MN",
+                "latitude": -75.212247,
+                "longitude": 89.802158
+            },
+            "website": "http://swift.com",
+            "image": "http://placeimg.com/640/480/people"
+        },
+        {
+            "id": 2,
+            "firstname": "Cordie",
+            "lastname": "Hoppe",
+            "email": "ledner.wendy@yahoo.com",
+            "phone": "+9758205996997",
+            "birthday": "2000-02-06",
+            "gender": "female",
+            "address": {
+                "id": 0,
+                "street": "974 Ruecker Brooks",
+                "streetName": "Kuphal Throughway",
+                "buildingNumber": "55067",
+                "city": "Fadelmouth",
+                "zipcode": "78345",
+                "country": "Mexico",
+                "county_code": "YE",
+                "latitude": -52.558037,
+                "longitude": -139.932132
+            },
+            "website": "http://ryan.com",
+            "image": "http://placeimg.com/640/480/people"
+        },
+        {
+            "id": 3,
+            "firstname": "Marley",
+            "lastname": "Cole",
+            "email": "harold78@schmeler.com",
+            "phone": "+2864773791979",
+            "birthday": "1956-01-21",
+            "gender": "male",
+            "address": {
+                "id": 0,
+                "street": "4071 Dare Mission Suite 347",
+                "streetName": "Mertz Mall",
+                "buildingNumber": "436",
+                "city": "Stoltenbergport",
+                "zipcode": "30453",
+                "country": "Lithuania",
+                "county_code": "AG",
+                "latitude": 12.762999,
+                "longitude": 157.066105
+            },
+            "website": "http://mosciski.com",
+            "image": "http://placeimg.com/640/480/people"
+        },
+        {
+            "id": 4,
+            "firstname": "Albina",
+            "lastname": "Jenkins",
+            "email": "penelope.wilkinson@yahoo.com",
+            "phone": "+9679853318396",
+            "birthday": "2003-04-20",
+            "gender": "female",
+            "address": {
+                "id": 0,
+                "street": "339 Harvey Islands",
+                "streetName": "Berge Flat",
+                "buildingNumber": "94114",
+                "city": "Gleichnerville",
+                "zipcode": "13877",
+                "country": "Equatorial Guinea",
+                "county_code": "TD",
+                "latitude": 22.1576,
+                "longitude": -19.626528
+            },
+            "website": "http://lynch.biz",
+            "image": "http://placeimg.com/640/480/people"
+        },
+        {
+            "id": 5,
+            "firstname": "Emmalee",
+            "lastname": "Kutch",
+            "email": "zion.durgan@donnelly.net",
+            "phone": "+5245891867973",
+            "birthday": "1980-08-08",
+            "gender": "female",
+            "address": {
+                "id": 0,
+                "street": "4589 Conor Turnpike Suite 932",
+                "streetName": "Ullrich Prairie",
+                "buildingNumber": "171",
+                "city": "Hyattville",
+                "zipcode": "18185-3533",
+                "country": "American Samoa",
+                "county_code": "TZ",
+                "latitude": 73.43087,
+                "longitude": -44.907774
+            },
+            "website": "http://herman.biz",
+            "image": "http://placeimg.com/640/480/people"
+        },
+        {
+            "id": 6,
+            "firstname": "Dana",
+            "lastname": "Moen",
+            "email": "akeem.wehner@koch.com",
+            "phone": "+2822691776482",
+            "birthday": "1971-04-20",
+            "gender": "female",
+            "address": {
+                "id": 0,
+                "street": "590 Mauricio Highway",
+                "streetName": "Green Burg",
+                "buildingNumber": "301",
+                "city": "West Gonzaloton",
+                "zipcode": "00861",
+                "country": "Bolivia",
+                "county_code": "IO",
+                "latitude": 22.681506,
+                "longitude": -152.901838
+            },
+            "website": "http://schultz.info",
+            "image": "http://placeimg.com/640/480/people"
+        },
+        {
+            "id": 7,
+            "firstname": "Alba",
+            "lastname": "Thiel",
+            "email": "grimes.cleve@rodriguez.biz",
+            "phone": "+5159923889344",
+            "birthday": "1958-05-11",
+            "gender": "female",
+            "address": {
+                "id": 0,
+                "street": "844 Greenfelder Lakes",
+                "streetName": "Brady Road",
+                "buildingNumber": "724",
+                "city": "North Jessyca",
+                "zipcode": "60389",
+                "country": "Mali",
+                "county_code": "CL",
+                "latitude": -13.946595,
+                "longitude": 44.951039
+            },
+            "website": "http://larkin.com",
+            "image": "http://placeimg.com/640/480/people"
+        },
+        {
+            "id": 8,
+            "firstname": "Magnolia",
+            "lastname": "Lubowitz",
+            "email": "rippin.christelle@sawayn.biz",
+            "phone": "+1930131030624",
+            "birthday": "1933-04-04",
+            "gender": "female",
+            "address": {
+                "id": 0,
+                "street": "6937 Magdalena Street",
+                "streetName": "Carley Trace",
+                "buildingNumber": "8902",
+                "city": "Kolbyfurt",
+                "zipcode": "66665",
+                "country": "Venezuela",
+                "county_code": "NO",
+                "latitude": 31.590517,
+                "longitude": 133.504263
+            },
+            "website": "http://bode.info",
+            "image": "http://placeimg.com/640/480/people"
+        },
+        {
+            "id": 9,
+            "firstname": "Conrad",
+            "lastname": "Rodriguez",
+            "email": "vdooley@casper.com",
+            "phone": "+4313959024628",
+            "birthday": "1981-08-15",
+            "gender": "male",
+            "address": {
+                "id": 0,
+                "street": "7368 Wilford Mills Apt. 105",
+                "streetName": "Andreane Well",
+                "buildingNumber": "427",
+                "city": "Jenniemouth",
+                "zipcode": "63364",
+                "country": "Benin",
+                "county_code": "RS",
+                "latitude": -24.304273,
+                "longitude": 172.325369
+            },
+            "website": "http://tremblay.com",
+            "image": "http://placeimg.com/640/480/people"
+        },
+        {
+            "id": 10,
+            "firstname": "Jarrod",
+            "lastname": "Heidenreich",
+            "email": "wwehner@hansen.info",
+            "phone": "+3926960511029",
+            "birthday": "1959-01-13",
+            "gender": "male",
+            "address": {
+                "id": 0,
+                "street": "64735 Maureen Mission Suite 302",
+                "streetName": "Larissa Falls",
+                "buildingNumber": "50540",
+                "city": "Candiceport",
+                "zipcode": "45027-4795",
+                "country": "Turkey",
+                "county_code": "AX",
+                "latitude": -85.719057,
+                "longitude": -115.875968
+            },
+            "website": "http://brown.com",
+            "image": "http://placeimg.com/640/480/people"
+        }
+    ]
 }
