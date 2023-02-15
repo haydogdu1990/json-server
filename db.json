@@ -1,6 +1,6 @@
 {
 
-    "data": [
+    "persons": [
         {
             "id": 1,
             "firstname": "Gene",
